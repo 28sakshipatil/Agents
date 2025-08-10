@@ -1,3 +1,5 @@
+#this is hierarchical financial assistant app not A2A protocol
+#the agents are not aware of each other, they are just classes
 import time
 import textwrap
 
@@ -167,6 +169,7 @@ class Filer:
 
             if choice == 'itr-1':
                 guide_text = """Great, let's go through ITR-1 (Sahaj). Here are the key sections:
+
 1.  Part A - General Information: Your PAN, Aadhaar, address, etc. (Mostly pre-filled).
 2.  Part B - Gross Total Income: Enter salary (from Form 16), house property income, etc.
 3.  Part C - Deductions: Fill in your deductions under Chapter VI-A (80C, 80D).
