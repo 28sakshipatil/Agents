@@ -35,7 +35,7 @@ def call_generative_ai(prompt):
     if not api_key:
         # A fallback for simplicity if the environment variable isn't set.
         # WARNING: Do not commit your API key directly into the code in a real project.
-        api_key = "AIzaSyDXHC7N3wuxM4w45aI72Y2WuvEscDzAAiQ" 
+        api_key = "" 
     
     if api_key == "YOUR_API_KEY_HERE":
         print(f"{colors.RED}ERROR: Please replace 'YOUR_API_KEY_HERE' with your actual Gemini API key.{colors.ENDC}")
